@@ -1,0 +1,84 @@
+.comparison-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  .comparison-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .comparison-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-foreground);
+    margin-bottom: 15px;
+  }
+
+  .comparison-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .comparison-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .comparison-label {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: var(--color-foreground);
+      border-bottom: 2px solid var(--color-accents);
+      padding-bottom: 5px;
+    }
+
+    .comparison-demo {
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      border: 1px dashed #ccc;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      background-color: #fafafa;
+    }
+
+    .comparison-desc {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.4;
+    }
+  }
+}
+
+// SASS Custom Styled Button for Comparison
+.custom-btn-sass {
+  background-color: #4f772d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #467c3e;
+  }
+}

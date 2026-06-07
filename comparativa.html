@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalizer.css" />
+    <title>Comparativa de Tecnologías | PlantCo.</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-light"
+        aria-label="Navegación principal"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand brand" href="index.html">PlantCo.</a>
+
+          <div
+            class="collapse navbar-collapse justify-content-sm-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Inicio</a>
+              <a class="nav-link" href="productos.html">Productos</a>
+              <a class="nav-link" href="categoria.html">Accesorios</a>
+              <a class="nav-link" href="newsletter.html">Newsletter</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="comparativa.html"
+                >Comparativa</a
+              >
+            </div>
+          </div>
+          <div>
+            <a href="checkout.html" aria-label="Ver carrito de compras y pagar">
+              <img src="assets/cart.svg" alt="Icono de Carrito" class="icon" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Abrir menú de navegación"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container my-5">
+      <section class="comparison-section rounded mb-5">
+        <div class="comparison-container">
+          <h1 class="comparison-title font-weight-bold text-center mb-5">
+            Botón
+          </h1>
+
+          <div class="comparison-grid">
+            <div class="comparison-card">
+              <span class="comparison-label">HTML sin estilos</span>
+              <div class="comparison-demo">
+                <!-- Html solo -->
+                <button>Comprar</button>
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <span class="comparison-label">HTML + SASS</span>
+              <div class="comparison-demo">
+                <!-- SASS -->
+                <button class="custom-btn-sass">Comprar</button>
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <span class="comparison-label">HTML + Bootstrap</span>
+              <div class="comparison-demo">
+                <!-- Bootstrap -->
+                <button class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+
+            <div class="comparison-card">
+              <span class="comparison-label">HTML + Tailwind</span>
+              <div class="comparison-demo">
+                <!-- Tailwind -->
+                <button
+                  class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+                >
+                  Comprar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="comparison-section rounded">
+        <div class="comparison-container">
+          <h2 class="comparison-title font-weight-bold text-center mb-5">
+            Card
+          </h2>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="p-3 bg-light border rounded h-100 text-center">
+                <span class="d-block mb-3 fw-bold text-muted border-bottom pb-2"
+                  >HTML sin estilos</span
+                >
+                <!-- Html solo -->
+                <div>
+                  <img
+                    src="public/Monstera-deliciosa.png"
+                    alt="Monstera Deliciosa"
+                    style="width: 100px; height: 100px"
+                  />
+                  <h3>Monstera Deliciosa</h3>
+                  <p>
+                    Hojas grandes y perforadas que crean un ambiente tropical
+                    instantáneo en cualquier espacio.
+                  </p>
+                  <span>$4.500</span>
+                  <button>Detalle</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- SASS -->
+            <div class="col">
+              <div class="p-3 bg-light border rounded h-100 text-center">
+                <span class="d-block mb-3 fw-bold text-muted border-bottom pb-2"
+                  >HTML + SASS</span
+                >
+                <div class="product-card h-100 text-start">
+                  <div class="product-image-container">
+                    <img
+                      src="public/Monstera-deliciosa.png"
+                      alt="Monstera Deliciosa"
+                    />
+                  </div>
+                  <div class="product-content">
+                    <h3 class="product-title">Monstera Deliciosa</h3>
+                    <p class="product-desc">
+                      Hojas grandes y perforadas que crean un ambiente tropical
+                      instantáneo en cualquier espacio.
+                    </p>
+                    <div class="product-footer">
+                      <span class="product-price"><strong>$4.500</strong></span>
+                      <a
+                        href="detalles/monstera-deliciosa.html"
+                        class="btn-detail"
+                        >Detalle</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="p-3 bg-light border rounded h-100 text-center">
+                <span class="d-block mb-3 fw-bold text-muted border-bottom pb-2"
+                  >HTML + Bootstrap</span
+                >
+                <!-- Bootstrap -->
+                <div class="card h-100 text-start">
+                  <div class="text-center bg-light p-3">
+                    <img
+                      src="public/Monstera-deliciosa.png"
+                      class="card-img-top"
+                      alt="Monstera Deliciosa"
+                      style="
+                        max-height: 150px;
+                        width: auto;
+                        object-fit: contain;
+                      "
+                    />
+                  </div>
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title h6">Monstera Deliciosa</h5>
+                    <p class="card-text text-muted small flex-grow-1">
+                      Hojas grandes y perforadas que crean un ambiente tropical
+                      instantáneo en cualquier espacio.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center mt-3"
+                    >
+                      <span class="text-success fw-bold">$4.500</span>
+                      <a
+                        href="detalles/monstera-deliciosa.html"
+                        class="btn btn-outline-success btn-sm"
+                        >Detalle</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="p-3 bg-light border rounded h-100 text-center">
+                <span class="d-block mb-3 fw-bold text-muted border-bottom pb-2"
+                  >HTML + Tailwind</span
+                >
+                <!-- Tailwind -->
+                <div
+                  class="border border-gray-200 rounded-lg bg-white overflow-hidden h-100 text-start flex flex-col justify-between shadow-sm"
+                >
+                  <div
+                    class="bg-slate-50 h-40 flex items-center justify-center p-2"
+                  >
+                    <img
+                      class="h-32 object-contain"
+                      src="public/Monstera-deliciosa.png"
+                      alt="Monstera Deliciosa"
+                    />
+                  </div>
+                  <div class="p-3 flex-grow flex flex-col justify-between">
+                    <div>
+                      <h4 class="font-bold text-base text-gray-800">
+                        Monstera Deliciosa
+                      </h4>
+                      <p class="text-gray-500 text-xs mt-1">
+                        Hojas grandes y perforadas que crean un ambiente
+                        tropical instantáneo en cualquier espacio.
+                      </p>
+                    </div>
+                    <div class="flex justify-between items-center mt-4">
+                      <span class="text-emerald-600 text-sm font-semibold"
+                        >$4.500</span
+                      >
+                      <a
+                        href="detalles/monstera-deliciosa.html"
+                        class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold py-1 px-3 rounded transition-colors"
+                        >Detalle</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="index.html" class="footer-logo">PlantCo.</a>
+      <ul class="footer-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="categoria.html">Categorías</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="comparativa.html">Comparativa</a></li>
+      </ul>
+      <p class="footer-info">© 2026 PlantCo.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

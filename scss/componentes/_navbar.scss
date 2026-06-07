@@ -1,0 +1,37 @@
+.navbar {
+  padding: 10px 30px;
+  border-bottom: 2px solid var(--color-foreground);
+}
+
+.icon {
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+}
+.brand {
+  font-weight: bold;
+  color: var(--color-accents);
+}
+
+.bi-cart3 {
+  stroke-width: 30px;
+}
+
+.active {
+  color: var(--color-accents-hover);
+  font-weight: bold;
+  transform: translateY(-4px);
+  border-bottom: 3px solid var(--color-accents-hover);
+  transition: all 0.3s;
+}
+
+// Fix Tailwind collapse visibility override on Bootstrap navbar
+.navbar-collapse.collapse {
+  visibility: visible !important;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse.collapse:not(.show) {
+    display: none !important;
+  }
+}
