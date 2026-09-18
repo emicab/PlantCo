@@ -35,7 +35,7 @@
               <a class="nav-link" href="comparativa.html">Comparativa</a>
             </div>
           </div>
-          <div>
+          <div class="flex">
             <a href="checkout.html" aria-label="Ver carrito de compras y pagar">
               <img src="assets/cart.svg" alt="Icono de Carrito" class="icon" />
             </a>
@@ -84,8 +84,9 @@
 
       <section class="catalog-section">
         <h2 class="section-title">Productos Destacados</h2>
+        <p class="mensaje text-center">Cargando productos...</p>
         <div class="products-grid">
-          <article class="product-card">
+          <!-- <article class="product-card">
             <figure class="product-image-container">
               <img
                 src="public/Monstera-deliciosa.png"
@@ -167,7 +168,7 @@
                 >
               </div>
             </div>
-          </article>
+          </article>-->
         </div>
       </section>
 
@@ -198,7 +199,7 @@
           class="d-flex justify-content-center align-items-center gap-2 mx-auto"
           style="max-width: 500px"
         >
-          <div class="flex-grow-1">
+          <div class="flex flex-col items-start relative w-full">
             <label for="homeEmail" class="visually-hidden"
               >Correo Electrónico</label
             >
@@ -210,10 +211,15 @@
               class="form-control"
               placeholder="tu-email@correo.com"
             />
+            <p
+              id="inputMensajeError"
+              class="text-red-500 text-sm absolute top-10"
+            ></p>
           </div>
           <button
+            id="btn-submit"
             type="submit"
-            class="btn btn-light text-success font-weight-bold"
+            class="btn btn-form btn-light text-center text-success font-bold"
           >
             Suscribirse
           </button>
@@ -234,5 +240,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/productos-destacados.js"></script>
+    <script type="module" src="js/newsletters.js"></script>
   </body>
 </html>

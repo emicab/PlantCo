@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Monstera Deliciosa",
+    "description": "La Monstera Deliciosa, también conocida como \"Costilla de Adán\", es famosa por sus hojas grandes y brillantes con cortes naturales. Es una planta de rápido crecimiento que se adapta muy bien a interiores y añade un gran impacto estético a cualquier habitación.",
+    "short_description": "Ideal para dar un toque tropical y de frescura a tu living u oficina.",
+    "price": 4500,
+    "category_id": 1,
+    "id": 1,
+    "pictures": ["public/Monstera-deliciosa.png"],
+    "category": {
+      "id": 1,
+      "title": "Plantas de Interior",
+      "description": "Plantas ideales para decorar y purificar el aire de tus espacios cerrados",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Destacado",
+        "id": 101
+      },
+      {
+        "title": "Tendencia",
+        "id": 104
+      }
+    ],
+    "care_instructions": [
+      "Limpia el polvo de sus hojas regularmente con un paño húmedo para que respire mejor.",
+      "Ubícala en espacios con luz indirecta para evitar quemaduras en sus hojas.",
+      "Proporciónale un tutor o soporte para guiar su crecimiento vertical."
+    ]
+  },
+  {
+    "title": "Snake Plant",
+    "description": "La Snake Plant o Sansevieria es conocida por sus hojas erguidas en forma de espada. Es sumamente resistente a condiciones extremas de luz y riego, y destaca por su capacidad de purificar el aire del hogar convirtiendo el dióxido de carbono en oxígeno durante la noche.",
+    "short_description": "Soporta la falta de luz y riego. Perfecta para quienes inician en la jardinería.",
+    "price": 3200,
+    "category_id": 1,
+    "id": 2,
+    "pictures": ["public/Snake-plant-zeylanica.png"],
+    "category": {
+      "id": 1,
+      "title": "Plantas de Interior",
+      "description": "Plantas ideales para decorar y purificar el aire de tus espacios cerrados",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Fácil Cuidado",
+        "id": 103
+      }
+    ],
+    "care_instructions": [
+      "Es preferible quedarse corto con el riego que regar de más; el exceso pudre sus raíces.",
+      "Utiliza una maceta con excelente drenaje y un sustrato poroso.",
+      "Tolera ambientes secos y no requiere pulverización foliar."
+    ]
+  },
+  {
+    "title": "Olivo Europeo",
+    "description": "El Olivo Europeo es un arbusto o árbol de hojas angostas y coriáceas de color verde grisáceo. Ideal para balcones soleados, terrazas o interiores muy luminosos. Transmite calma y calidez mediterránea con su tronco leñoso y aspecto natural.",
+    "short_description": "Árbol de porte elegante y hojas plateadas que resiste muy bien el sol.",
+    "price": 6800,
+    "category_id": 2,
+    "id": 3,
+    "pictures": ["public/Olivo-euro.png"],
+    "category": {
+      "id": 2,
+      "title": "Plantas de Exterior",
+      "description": "Plantas resistentes al sol y aptas para jardines, balcones o terrazas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Destacado",
+        "id": 101
+      }
+    ],
+    "care_instructions": [
+      "Ubícalo lo más cerca posible de una ventana soleada o al exterior.",
+      "Riega solo cuando la mitad superior del sustrato esté completamente seca.",
+      "Gira la maceta regularmente para que reciba luz uniforme en todas sus ramas."
+    ]
+  },
+  {
+    "title": "Maceta Nordic Moss",
+    "description": "Nuestra Maceta Nordic Moss es de cerámica artesanal con acabado mate texturado de color verde musgo. Su diseño curvo minimalista se adapta perfectamente a estanterías, escritorios y mesitas auxiliares, destacando la belleza natural de cualquier planta de porte pequeño a mediano.",
+    "short_description": "Macetas de cerámica con acabado mate, ideales para destacar tus suculentas.",
+    "price": 1200,
+    "category_id": 3,
+    "id": 4,
+    "pictures": ["public/Maceta-NORDIC-MOSS.png"],
+    "category": {
+      "id": 3,
+      "title": "Accesorios",
+      "description": "Macetas de diseño y herramientas esenciales para el cuidado de tus plantas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Tendencia",
+        "id": 104
+      }
+    ],
+    "care_instructions": [
+      "Lavar a mano únicamente con esponja suave y jabón neutro.",
+      "Evitar caídas o golpes fuertes ya que es cerámica frágil.",
+      "Se recomienda usar un plato protector debajo para no dañar los muebles si drena el agua."
+    ]
+  },
+  {
+    "title": "Pulverizador Fog",
+    "description": "El Pulverizador Fog combina vidrio ámbar de alta resistencia con una bomba atomizadora metálica en tono bronce/dorado. Produce una niebla de rocío ultrafina perfecta para mantener altos niveles de humedad alrededor de helechos, calateas, orquídeas y monsteras sin saturar la tierra de agua.",
+    "short_description": "Rocío extrafino para mantener la humedad ideal de tus plantas de interior.",
+    "price": 1500,
+    "category_id": 3,
+    "id": 5,
+    "pictures": ["public/Pulverizador-FOG.png"],
+    "category": {
+      "id": 3,
+      "title": "Accesorios",
+      "description": "Macetas de diseño y herramientas esenciales para el cuidado de tus plantas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Fácil Cuidado",
+        "id": 103
+      }
+    ],
+    "care_instructions": [
+      "Utiliza preferentemente agua filtrada o reposada para evitar que la cal del agua obstruya la boquilla de rocío.",
+      "Limpia el filtro y el mecanismo interno enjuagándolo con agua templada una vez al mes.",
+      "No utilices productos químicos fuertes o corrosivos en la botella."
+    ]
+  },
+  {
+    "title": "Regadera Stream",
+    "description": "Nuestra regadera Stream está fabricada con metal galvanizado de alta calidad y recubierta con pintura electroestática resistente a la oxidación. Su cuello largo y pico delgado permiten regar las plantas directamente en la base, ideal para macetas compactas y follaje denso sin salpicaduras.",
+    "short_description": "Diseño ergonómico con pico alargado para un riego preciso sin derrames.",
+    "price": 2100,
+    "category_id": 3,
+    "id": 6,
+    "pictures": ["public/Regadera-STREAM.png"],
+    "category": {
+      "id": 3,
+      "title": "Accesorios",
+      "description": "Macetas de diseño y herramientas esenciales para el cuidado de tus plantas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Fácil Cuidado",
+        "id": 103
+      }
+    ],
+    "care_instructions": [
+      "Vacía el agua residual después de cada uso para evitar la acumulación de minerales.",
+      "Límpiala periódicamente con un paño húmedo y sécala por completo.",
+      "No la dejes a la intemperie bajo lluvia constante para proteger el acabado de pintura."
+    ]
+  },
+  {
+    "title": "Set Essentials",
+    "description": "El Set Essentials contiene tres herramientas de mano de tamaño ideal para jardinería de interiores y mantenimiento de macetas. Incluye una pala de trasplante graduada, una pala ancha de carga y un minirastrillo. Fabricadas con cabezas de metal resistente y mangos de madera ergonómicos.",
+    "short_description": "Herramientas de mano resistentes para trasplantes y mantenimiento diario.",
+    "price": 5500,
+    "category_id": 3,
+    "id": 7,
+    "pictures": ["public/Set-ESSENTIALS.png"],
+    "category": {
+      "id": 3,
+      "title": "Accesorios",
+      "description": "Macetas de diseño y herramientas esenciales para el cuidado de tus plantas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Nuevo",
+        "id": 102
+      },
+      {
+        "title": "Destacado",
+        "id": 101
+      }
+    ],
+    "care_instructions": [
+      "Limpia los restos de tierra con un cepillo seco después de cada jornada.",
+      "Lava con agua si es necesario, pero sécalas completamente de inmediato para evitar oxidación.",
+      "Guárdalas en un lugar seco protegido de la intemperie."
+    ]
+  },
+  {
+    "title": "Soporte Grid",
+    "description": "El Soporte Grid eleva tus macetas del suelo para crear dinamismo y diferentes niveles visuales. Fabricado en hierro macizo con acabado de pintura epoxi negra mate, ofrece una estructura estable y minimalista apta para resistir el peso de macetas medianas y grandes.",
+    "short_description": "Eleva tus plantas para aprovechar mejor la luz solar en espacios pequeños.",
+    "price": 2800,
+    "category_id": 3,
+    "id": 8,
+    "pictures": ["public/Soporte-GRID.png"],
+    "category": {
+      "id": 3,
+      "title": "Accesorios",
+      "description": "Macetas de diseño y herramientas esenciales para el cuidado de tus plantas",
+      "picture": ""
+    },
+    "tags": [
+      {
+        "title": "Destacado",
+        "id": 102
+      }
+    ],
+    "care_instructions": [
+      "Apto para uso tanto en interiores como en exteriores techados.",
+      "Limpia con un paño seco si entra en contacto con agua durante el riego para evitar marcas.",
+      "Asegúrate de que el diámetro de la base de la maceta encaje de forma estable en el anillo superior del soporte."
+    ]
+  }
+]

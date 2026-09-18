@@ -3,3 +3,31 @@
 @use "utils/variables" as vars;
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.inputError {
+  border: 2px solid red;
+}
+
+.btn-form {
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.badge-destacado {
+  background-color: #e7a72fcd;
+  color: #875407;
+}
+
+.badge-nuevo {
+  background-color: #2f85e78f;
+  color: #1e40ec;
+}
+
+.badge-tendencia {
+  background-color: #e72f2f8f;
+  color: #c72219;
+}
+.badge-fácil-cuidado {
+  background-color: #7dd958;
+  color: #315a03;
+}

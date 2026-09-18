@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 html,
 * {
@@ -381,4 +382,33 @@ html,
 }
 .custom-btn-sass:hover {
   background-color: #467c3e;
+}
+
+.inputError {
+  border: 2px solid red;
+}
+
+.btn-form {
+  max-width: 100px;
+  min-width: 100px;
+}
+
+.badge-destacado {
+  background-color: rgba(231, 167, 47, 0.8039215686);
+  color: #875407;
+}
+
+.badge-nuevo {
+  background-color: rgba(47, 133, 231, 0.5607843137);
+  color: #1e40ec;
+}
+
+.badge-tendencia {
+  background-color: rgba(231, 47, 47, 0.5607843137);
+  color: #c72219;
+}
+
+.badge-fácil-cuidado {
+  background-color: #7dd958;
+  color: #315a03;
 }
