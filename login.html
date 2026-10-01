@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="flex flex-col h-dvh justify-center items-center">
+      <form
+        id="loginForm"
+        action=""
+        class="flex flex-col justify-center items-center w-80 rounded-xl m-8 shadow-sm h-80 bg-slate-200"
+      >
+        <h2 class="mb-4 text-xl font-bold">Ingresa tu token</h2>
+        <input
+          type="text"
+          class="px-2 py-1 outline-none rounded-md mb-4"
+          id="tokenID"
+          required
+        />
+        <button
+          id="btnToken"
+          class="px-5 py-2 text-white uppercase font-bold bg-[#4f772d] hover:bg-[#467C3E] rounded-md"
+        >
+          Entrar
+        </button>
+      </form>
+      <a
+        class="px-5 py-2 text-white uppercase font-bold bg-blue-400 hover:bg-[#467C3E] rounded-md"
+        href="index.html"
+        >ir al inicio</a
+      >
+    </div>
+    <script src="./js/LoginToken.js"></script>
+  </body>
+</html>

@@ -393,6 +393,11 @@ html,
   min-width: 100px;
 }
 
+.badge-tag {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
 .badge-destacado {
   background-color: rgba(231, 167, 47, 0.8039215686);
   color: #875407;

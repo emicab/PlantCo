@@ -2,7 +2,7 @@ import {
   createIcons,
   Check,
   X,
-} from "../node_modules/lucide/dist/esm/lucide.js";
+} from "https://esm.sh/lucide@1.47.0";
 
 export const iconoNotificacion = (elem, iconName, color) => {
   elem.innerHTML = `<i data-lucide="${iconName}" class="text-md m-auto text-center font-bold ${color}"></i>`;

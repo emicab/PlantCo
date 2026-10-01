@@ -8,52 +8,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+    <script type="module" src="./componentes/NavBar.js"></script>
+    <script type="module" src="./componentes/Login.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalizer.css" />
     <title>PlantCo. | Tienda de Plantas y Accesorios</title>
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg bg-light"
-        aria-label="Navegación principal"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand brand" href="index.html">PlantCo.</a>
-
-          <div
-            class="collapse navbar-collapse justify-content-sm-center"
-            id="navbarNavAltMarkup"
-          >
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Inicio</a
-              >
-              <a class="nav-link" href="productos.html">Productos</a>
-              <a class="nav-link" href="categoria.html">Accesorios</a>
-              <a class="nav-link" href="newsletter.html">Newsletter</a>
-              <a class="nav-link" href="comparativa.html">Comparativa</a>
-            </div>
-          </div>
-          <div class="flex">
-            <a href="checkout.html" aria-label="Ver carrito de compras y pagar">
-              <img src="assets/cart.svg" alt="Icono de Carrito" class="icon" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Abrir menú de navegación"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
+      <nav-bar></nav-bar>
     </header>
 
     <main>
@@ -86,91 +49,7 @@
       <section class="catalog-section">
         <h2 class="section-title">Productos Destacados</h2>
         <p class="mensaje text-center">Cargando productos...</p>
-        <div class="products-grid">
-          <!-- <article class="product-card">
-            <figure class="product-image-container">
-              <img
-                src="public/Monstera-deliciosa.png"
-                alt="Planta Monstera Deliciosa en maceta moderna"
-              />
-              <figcaption class="visually-hidden">
-                Monstera Deliciosa - Planta de interior popular
-              </figcaption>
-            </figure>
-            <div class="product-content">
-              <h3 class="product-title">Monstera Deliciosa</h3>
-              <p class="product-desc">
-                Hojas grandes y perforadas que crean un ambiente tropical
-                instantáneo en cualquier espacio.
-              </p>
-              <div class="product-footer">
-                <span class="product-price"><strong>$4.500</strong></span>
-                <a
-                  href="detalles/monstera-deliciosa.html"
-                  class="btn-detail"
-                  aria-label="Ver detalles de Monstera Deliciosa"
-                  >Detalle</a
-                >
-              </div>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <figure class="product-image-container">
-              <img
-                src="public/Snake-plant-zeylanica.png"
-                alt="Planta Snake Plant Zeylanica de hojas alargadas"
-              />
-              <figcaption class="visually-hidden">
-                Snake Plant - Planta purificadora de aire
-              </figcaption>
-            </figure>
-            <div class="product-content">
-              <h3 class="product-title">Snake Plant</h3>
-              <p class="product-desc">
-                Una de las plantas de interior más resistentes. Ideal para
-                principiantes por su fácil mantenimiento.
-              </p>
-              <div class="product-footer">
-                <span class="product-price"><strong>$3.200</strong></span>
-                <a
-                  href="detalles/snake-plant.html"
-                  class="btn-detail"
-                  aria-label="Ver detalles de Snake Plant"
-                  >Detalle</a
-                >
-              </div>
-            </div>
-          </article>
-
-          <article class="product-card">
-            <figure class="product-image-container">
-              <img
-                src="public/Olivo-euro.png"
-                alt="Pequeño árbol de Olivo en maceta"
-              />
-              <figcaption class="visually-hidden">
-                Olivo Europeo - Árbol de exterior/interior luminoso
-              </figcaption>
-            </figure>
-            <div class="product-content">
-              <h3 class="product-title">Olivo Europeo</h3>
-              <p class="product-desc">
-                Aporta elegancia mediterránea con sus hojas de tono verde
-                grisáceo. Requiere buena luz.
-              </p>
-              <div class="product-footer">
-                <span class="product-price"><strong>$6.800</strong></span>
-                <a
-                  href="detalles/olivo-euro.html"
-                  class="btn-detail"
-                  aria-label="Ver detalles de Olivo Europeo"
-                  >Detalle</a
-                >
-              </div>
-            </div>
-          </article>-->
-        </div>
+        <div class="products-grid"></div>
       </section>
 
       <aside class="max-w-5xl mx-auto my-10 p-6 bg-slate-100 border-l-4 border-emerald-600 rounded">
@@ -182,28 +61,6 @@
           de tu hogar o lugar de trabajo.
         </p>
       </aside>
-
-      <!--<aside
-        class="container my-5 p-4 bg-light border-start border-success border-4"
-        style="border-radius: 4px"
-      >
-        <h2 class="h5 text-success">
-          <strong><em>¡Envío gratis en compras mayores a $15.000!</em></strong>
-        </h2>
-        <p class="mb-0">
-          Entregamos tus plantas con el máximo cuidado directamente en la puerta
-          de tu hogar o lugar de trabajo.
-        </p>
-      </aside>
-
-      <section
-        class="container my-5 p-5 bg-success text-white rounded text-center"
-      >
-        <h2 class="h3 mb-3">Unite a nuestra Comunidad Botánica</h2>
-        <p class="mb-4">
-          Ingresa tu correo electrónico para recibir consejos de cuidado de
-          plantas, novedades y descuentos exclusivos.
-        </p>-->
 
     <section class="max-w-5xl mx-auto my-10 p-10 bg-emerald-700 text-white rounded-lg text-center">
         <h2 class="text-2xl font-bold mb-3">Unite a nuestra Comunidad Botánica</h2>

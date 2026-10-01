@@ -29,7 +29,6 @@ formularioNewsletter.addEventListener("submit", (event) => {
 
   const suscriptores = JSON.parse(localStorage.getItem("newsletter")) || [];
   if (suscriptores.includes(email)) {
-    console.log("Email ya registrado.");
     inputEmail.classList.add("inputError");
     mensajerError.textContent = "Email ya registrado.";
     iconoNotificacion(btnSubmit, "x", "text-red-500");

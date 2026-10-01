@@ -1,5 +1,6 @@
 node_modules/
+node_modules
 .vscode/
 *:Zone.Identifier
 .DS_Store
-Thumbs.db
+Thumbs.db

@@ -2,21 +2,27 @@ export const crearProducto = (producto) => {
   const tagsHTML = producto.tags
     .map(
       (tag) => `
-  <span class="px-2 py-1 text-sm font-bold rounded-full badge-${tag.title.toLowerCase().replaceAll(" ", "-")}">${tag.title}</span>
+  <span class="px-2 py-1 text-sm font-bold rounded-full badge-tag badge-${tag.title.toLowerCase().replaceAll(" ", "-")}">${tag.title}</span>
 `,
     )
     .join("");
+
+  const imagenSrc = producto.pictures && producto.pictures.length > 0 
+    ? (producto.pictures[0].startsWith("http") || producto.pictures[0].startsWith("public/") || producto.pictures[0].startsWith("./")
+        ? producto.pictures[0]
+        : `https://ecommerce.fedegonzalez.com/${producto.pictures[0]}`)
+    : "public/hero-img.png";
 
   let articulo = `
     <article class="product-card relative">
             <span class="absolute top-2 right-2 flex gap-1">${tagsHTML}</span>
             <figure class="product-image-container">
               <img
-                src="${producto.pictures[0]}"
+                src="${imagenSrc}"
                 alt="${producto.title}"
               />
               <figcaption class="visually-hidden">
-                ${producto?.title} - ${producto.category.title}.
+                ${producto?.title} - ${producto.category?.title || ""}.
               </figcaption>
             </figure>
             <div class="product-content">
